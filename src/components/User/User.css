@@ -1,0 +1,62 @@
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.user-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.user-id,
+.user-email,
+.user-description {
+    margin: 4px 0;
+    font-size: 0.9rem;
+}
+
+.user-email {
+    margin-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    /* Remove underline */
+    color: #ffffff;
+    /* Text color */
+    background-color: #007bff;
+    /* Background color */
+    padding: 10px 15px;
+    /* Padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s;
+    /* Transition effect */
+}
+
+.link-button:hover {
+    background-color: #0056b3;
+    /* Darker background on hover */
+}

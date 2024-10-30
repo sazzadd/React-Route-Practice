@@ -1,0 +1,12 @@
+.link-button {
+     text-decoration: none; /* Remove underline */
+     color: #ffffff; /* Text color */
+     background-color: #007bff; /* Background color */
+     padding: 10px 15px; /* Padding */
+     border-radius: 5px; /* Rounded corners */
+     transition: background-color 0.3s; /* Transition effect */
+   }
+   
+   .link-button:hover {
+     background-color: #0056b3; /* Darker background on hover */
+   }

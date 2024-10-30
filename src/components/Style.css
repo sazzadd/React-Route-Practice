@@ -1,0 +1,106 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #2d3748;
+    /* Dark gray background */
+    padding: 16px;
+    /* Padding around the navbar */
+}
+
+.navbar-container {
+    max-width: 1200px;
+    /* Max width for the navbar */
+    margin: 0 auto;
+    /* Centering the navbar */
+    display: flex;
+    /* Flexbox for alignment */
+    justify-content: space-between;
+    /* Space between brand and links */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.navbar-brand {
+    color: white;
+    /* White color for the brand name */
+    font-size: 24px;
+    /* Font size for the brand */
+    font-weight: bold;
+    /* Bold font weight for the brand */
+}
+
+.navbar-links {
+    display: flex;
+    /* Flexbox for link alignment */
+    gap: 16px;
+    /* Space between links */
+}
+
+.navbar-link {
+    color: white;
+    /* White color for links */
+    text-decoration: none;
+    /* Remove underline from links */
+    padding: 8px 16px;
+    /* Padding for links */
+    border-radius: 4px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background */
+}
+
+.navbar-link:hover {
+    background-color: #4a5568;
+    /* Darker gray on hover */
+}
+
+
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #282c34;
+    /* Dark background */
+    color: white;
+    /* White text */
+    padding: 20px;
+    /* Padding around the footer */
+    text-align: center;
+    /* Center text */
+}
+
+.footer-content {
+    max-width: 800px;
+    /* Max width for the footer content */
+    margin: 0 auto;
+    /* Center footer content */
+}
+
+.social-links {
+    margin-top: 10px;
+    /* Space above social links */
+}
+
+.social-links a {
+    color: white;
+    /* White links */
+    margin: 0 10px;
+    /* Space between links */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.user-container {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1fr);
+    gap: 16px;
+}
+
+.active {
+    text-decoration: underline;
+    color: yellow;
+}
